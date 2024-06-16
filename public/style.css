@@ -1,7 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
 html, body {
+  background: #000;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
 }
 canvas {
   display: block;
 }
+
+button {
+  display: block;
+  position: absolute;
+  top: 10px;
+  font-family: Bebas Neue;
+  font-weight: 100;
+  font-size: 17px;
+  color: #fff;
+  background: linear-gradient(335deg, #0578eb 16%, #ff266e 70%);
+  padding: 5px 30px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 35px;
+  transition : 1024ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: lowercase;
+}
+
+
+
+button:hover{
+  transition : 1024ms;
+  padding: 5px 45px;
+  transform : translateY(-0px);
+  background: linear-gradient(335deg, #0578eb 16%, #ff266e 70%);
+  color: #82c1f7;
+  border: none;
+}
+
